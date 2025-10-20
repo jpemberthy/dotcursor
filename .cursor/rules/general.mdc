@@ -1,0 +1,10 @@
+---
+description: General rules for AI assistant behavior
+globs:
+alwaysApply: true
+---
+
+## Commit Policy
+**NEVER COMMIT WITHOUT EXPLICIT USER APPROVAL.**
+
+Always ask for confirmation before running any git commit commands.

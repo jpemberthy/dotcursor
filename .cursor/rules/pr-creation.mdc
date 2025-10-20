@@ -1,0 +1,13 @@
+---
+description:
+globs:
+alwaysApply: true
+---
+When creating PRs (Pull Requests) give me a simple output like the one below. AVOID the summary.
+
+Always use the project .github/pull_request_template.md for the PR description.
+
+```
+Perfect! ✅ Pull Request created successfully!
+🔗 PR URL: https://github.com/convergint/insights/pull/347
+```
