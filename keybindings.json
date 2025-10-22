@@ -1,0 +1,131 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "cmd+t",
+    "command": "workbench.action.quickOpen",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+b",
+    "command": "emacs-mcx.paredit.backwardSexp",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+alt+e",
+    "command": "emacs-mcx.forwardParagraph",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+a",
+    "command": "emacs-mcx.backwardParagraph",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+n",
+    "command": "cursorBottomSelect",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+e",
+    "command": "emacs-mcx.forwardParagraph",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+shift+t",
+    "command": "workbench.action.gotoSymbol",
+    "args": { "prefix": "@" },
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+alt+cmd+up",
+    "command": "-quickInput.previousSeparator",
+    "when": "inQuickInput && quickInputType == 'quickPick'"
+  },
+  {
+    "key": "ctrl+alt+cmd+down",
+    "command": "-quickInput.nextSeparator",
+    "when": "inQuickInput && quickInputType == 'quickPick'"
+  },
+  {
+    "key": "ctrl+alt+cmd+right",
+    "command": "-quickInput.acceptInBackground",
+    "when": "cursorAtEndOfQuickInputBox && inQuickInput && quickInputType == 'quickPick' || inQuickInput && !inputFocus && quickInputType == 'quickPick'"
+  },
+  {
+    "key": "ctrl+alt+cmd+home",
+    "command": "-quickInput.first",
+    "when": "inQuickInput && quickInputType == 'quickPick'"
+  },
+  {
+    "key": "ctrl+alt+cmd+end",
+    "command": "-quickInput.last",
+    "when": "inQuickInput && quickInputType == 'quickPick'"
+  },
+  {
+    "key": "ctrl+alt+cmd+pagedown",
+    "command": "-quickInput.pageNext",
+    "when": "inQuickInput && quickInputType == 'quickPick'"
+  },
+  {
+    "key": "ctrl+alt+cmd+pageup",
+    "command": "-quickInput.pagePrevious",
+    "when": "inQuickInput && quickInputType == 'quickPick'"
+  },
+  {
+    "key": "cmd+f", // Replace with your desired keybinding
+    "command": "emacs-mcx.forwardWord", // Replace with the command you copied
+    "when": "true" // Removes the condition to make it always active
+  },
+  {
+    "key": "cmd+i",
+    "command": "composerMode.agent"
+  },
+  {
+    "key": "shift+cmd+n",
+    "command": "workbench.action.files.newUntitledFile"
+  },
+  {
+    "key": "cmd+n",
+    "command": "-workbench.action.files.newUntitledFile"
+  },
+  {
+    "key": "cmd+n",
+    "command": "emacs-mcx.addSelectionToNextFindMatch",
+    "when": "config.emacs-mcx.useMetaPrefixMacCmd && editorFocus"
+  },
+  {
+    "key": "ctrl+cmd+n",
+    "command": "-emacs-mcx.addSelectionToNextFindMatch",
+    "when": "config.emacs-mcx.useMetaPrefixMacCmd && editorFocus"
+  },
+  {
+    "key": "ctrl+j",
+    "command": "editor.action.revealDefinition",
+    "when": "editorHasDefinitionProvider && editorTextFocus"
+  },
+  {
+    "key": "f12",
+    "command": "-editor.action.revealDefinition",
+    "when": "editorHasDefinitionProvider && editorTextFocus"
+  },
+  {
+    "key": "shift+cmd+e",
+    "command": "workbench.action.focusActiveEditorGroup"
+  },
+  {
+    "key": "shift+cmd+c",
+    "command": "aichat.newfollowupaction"
+  },
+  {
+    "key": "cmd+y",
+    "command": "-aichat.newfollowupaction"
+  },
+  {
+    "key": "ctrl+t",
+    "command": "workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "cmd+b",
+    "command": "-workbench.action.toggleSidebarVisibility"
+  }
+]
