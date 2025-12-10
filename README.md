@@ -9,6 +9,7 @@ A collection of my most useful Cursor AI rules and commands.
 Custom commands that define workflows:
 - **implement.md** - Bottom-up, component-based implementation workflow
 - **pr.md** - Automated pull request creation process
+- **visualize.md** - Use mermaid diagram to visualize the data lineage of the referenced code or project
 
 ### Rules (`.cursor/rules/`)
 AI behavior guidelines that are always applied:
